@@ -106,6 +106,7 @@ h3 {
     margin-top: 25px;
     margin-right: 25px;
     width: 100%;
+    text-align: center;
   }
   nav a{
     text-align: center;
@@ -230,21 +231,35 @@ h3, h2 {
     margin-right: 25px;
   }
 }
+#main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
 
-
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 100px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
 /* portfolio page */
   .work {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
     overflow: auto;
   }
 
   .work:nth-child(even) {
-    margin-right: 40px;
+    margin: 20px;
   }
-
+  .work:nth-child(odd) {
+    margin: 20px;
+  }
   .work img {
     width: 100%;
     border: 0 none;
